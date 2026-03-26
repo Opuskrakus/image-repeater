@@ -142,7 +142,7 @@ $btnRun.Add_Click({
     }
 
     $btnRun.Enabled = $false
-    $btnRun.Text    = "Running…"
+    $btnRun.Text    = "Running..."
     $form.Refresh()
 
     $culture = [System.Globalization.CultureInfo]::InvariantCulture
